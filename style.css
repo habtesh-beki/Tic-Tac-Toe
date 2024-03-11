@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    background-image:linear-gradient(60deg , red ,  blue ) ;
+}
+.main-app{
+    margin-top: 5%;
+    height: 30rem;
+    border-radius: 1rem;
+    width: 25rem;
+    background-color: #fff;
+}
+.title--header{
+    padding: 1rem;
+    background-color: azure;
+}
+.Title-game{
+    margin-left: 4rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-left: 1rem; */
+    gap: 1rem;
+    height: 100%;
+    background-color: rgb(255, 250, 250);
+}
+.box{
+    display: flex;
+    height: 9.3rem;
+    width: 7.6rem;
+    background-color: black;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 1000;
+    justify-content: center;
+    align-items: center;
+}
+/* .blur{
+    filter: blur(4px);
+} */
+.winner{
+   position: absolute;
+   height: 37rem;
+   width: 25rem;
+   background-image:linear-gradient(60deg , red ,  blue ) ;
+   top: 27%;
+   border-radius: 1rem;
+}
+.winner-popup{
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: #fff;
+}
+.restart{
+    outline: none;
+    margin: 7rem;
+    border: none;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.restart:hover{
+    background-color: blueviolet;
+}
+.hidden{
+    display: none;
+}
